@@ -71,3 +71,5 @@ Une fois ton script terminé, tu peux executer la commande suivante
 npm run build-prod
 ```
 et ensuite me remettre le dossier complet sur clès USB ;-)
+
+![](https://media.giphy.com/media/DAtJCG1t3im1G/giphy.gif)
