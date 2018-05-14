@@ -2,26 +2,26 @@
 
 ### Installation
 
-<strong>Attention :</strong> tu dois avoir node, npm et git installé sur ta machine <br/>
+> <strong>Attention :</strong> tu dois avoir node, npm et git installé sur ta machine <br/>
 
 Récupére le dossier avec git clone n'importe ou sur ta machine
-``` ligne de commande
-git clone https://github.com/elleetla/pokedex.git
+``` 
+$ git clone https://github.com/elleetla/pokedex.git
 ```
 
 Place toi à la racine du dossier "pokedex" en ligne de commande et execute la commande suivante
-``` ligne de commande
-npm install
+``` 
+$ npm install
 ```
 
 Ensuite execute la ligne suivante afin de générer un serveur local
-``` ligne de commande
-npm run start
+```
+$ npm run start
 ```
 
 Ouvre une nouvelle fenetre de ton terminal et execute la ligne suivante pour que webpack compile le fichier "app.js" pour le transformer en "bundle.js" dans le dossier "public/js"
-``` ligne de commande
-npm run build-dev
+``` 
+$ npm run build-dev
 ```
 
 ### Tu peux commencer :)
@@ -45,7 +45,7 @@ Tu devras afficher chaque pokemon, avec : le nom, la taille, le poid, et l'image
 
 ![](http://demo.elle-et-la.com/pokedex/img_home_pokedex.jpg)
 
-Tu peux coder ce pokedex en ES15 ou en jQuery.
+Tu peux coder ce pokedex en ES6 ou en jQuery.
 Si tu souhaites utiliser jQuery, il te suffira d'insérer la ligne suivante dans le fichier "app.js" 
 ``` javascript
 let $ = require("jquery");
@@ -67,8 +67,8 @@ Pour afficher la liste de tes pokemons, tu peux les afficher dans la balise html
 Tu peux structurer ta lise en utilisant les class de bootstrap, ex : ".col-lg-4""
 
 Une fois ton script terminé, tu peux executer la commande suivante
-``` commande
-npm run build-prod
+``` 
+$ npm run build-prod
 ```
 et ensuite me remettre le dossier complet sur clès USB ;-)
 
