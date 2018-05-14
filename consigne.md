@@ -4,6 +4,11 @@
 
 <strong>Attention :</strong> tu dois avoir node et npm installé sur ta machine <br/>
 
+Récupére le dossier avec git clone n'importe ou sur ta machine
+``` ligne de commande
+git clone https://github.com/elleetla/pokedex.git
+```
+
 Place toi à la racine du dossier "pokedex" en ligne de commande et execute la commande suivante
 ``` ligne de commande
 npm install
@@ -36,8 +41,8 @@ de te focaliser sur le dossier "js". C'est dans le fichier "app.js" que tu écri
 Pour récupérer la data das pokemons, il faut que fasse appel à ce fichier : 
 https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
 
-Tu devras afficher chaque pokemon, avec : le nom, la taille, le poid, et l'image.
-Comme ceci :
+Tu devras afficher chaque pokemon, avec : le nom, la taille, le poid, et l'image. Comme ceci :
+
 ![](http://demo.elle-et-la.com/pokedex/img_home_pokedex.jpg)
 
 Tu peux coder ce pokedex en ES15 ou en jQuery.
