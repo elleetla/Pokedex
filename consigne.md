@@ -8,7 +8,7 @@ npm install
 
 Ensuite execute la ligne suivante afin de générer un serveur
 ``` ligne de commande
-npm run start-dev
+npm run start
 ```
 
 Ouvre une nouvelle fenetre de ton terminal et execute la ligne suivante pour que webpack compile le fichier "app.js" pour le transformer en "bundle.js" dans le dossier "public/js"
