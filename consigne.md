@@ -2,7 +2,7 @@
 
 ### Installation
 
-<strong>Attention :</strong> tu dois avoir node et npm installé sur ta machine <br/>
+<strong>Attention :</strong> tu dois avoir node, npm et git installé sur ta machine <br/>
 
 Récupére le dossier avec git clone n'importe ou sur ta machine
 ``` ligne de commande
