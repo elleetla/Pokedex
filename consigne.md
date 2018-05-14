@@ -1,6 +1,7 @@
 # Ton super Pokedex ;-)
 
 ### Installation
+
 <strong>Attention :</strong> tu dois avoir node et npm installé sur ta machine <br/>
 
 Place toi à la racine du dossier "pokedex" en ligne de commande et execute la commande suivante
@@ -8,7 +9,7 @@ Place toi à la racine du dossier "pokedex" en ligne de commande et execute la c
 npm install
 ```
 
-Ensuite execute la ligne suivante afin de générer un serveur
+Ensuite execute la ligne suivante afin de générer un serveur local
 ``` ligne de commande
 npm run start
 ```
@@ -36,11 +37,11 @@ Pour récupérer la data das pokemons, il faut que fasse appel à ce fichier :
 https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
 
 Tu devras afficher chaque pokemon, avec : le nom, la taille, le poid, et l'image.
-Voir l'image à la racine du dossier : <strong>img_home_pokedex.jpg</strong>
+Comme ceci :
+![](http://demo.elle-et-la.com/pokedex/img_home_pokedex.jpg)
 
 Tu peux coder ce pokedex en ES15 ou en jQuery.
 Si tu souhaites utiliser jQuery, il te suffira d'insérer la ligne suivante dans le fichier "app.js" 
-
 ``` javascript
 let $ = require("jquery");
 ```
@@ -61,7 +62,7 @@ Pour afficher la liste de tes pokemons, tu peux les afficher dans la balise html
 Tu peux structurer ta lise en utilisant les class de bootstrap, ex : ".col-lg-4""
 
 Une fois ton script terminé, tu peux executer la commande suivante
-``` javascript
+``` commande
 npm run build-prod
 ```
 et ensuite me remettre le dossier complet sur clès USB ;-)
