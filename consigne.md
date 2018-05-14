@@ -33,6 +33,9 @@ de te focaliser sur le dossier "js". C'est dans le fichier "app.js" que tu écri
 Pour récupérer la data das pokemons, il faut que fasse appel à ce fichier : 
 https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
 
+Tu devras afficher chaque pokemon, avec : le nom, la taille, le poid, et l'image.
+Voir l'image à la racine du dossier : <strong>img_home_pokedex.jpg</strong>
+
 Tu peux coder ce pokedex en ES15 ou en jQuery.
 Si tu souhaites utiliser jQuery, il te suffira d'insérer la ligne suivante dans le fichier "app.js" 
 
