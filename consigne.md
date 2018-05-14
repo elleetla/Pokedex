@@ -1,6 +1,8 @@
 # Ton super Pokedex ;-)
 
 ### Installation
+<strong>Attention :</strong> tu dois avoir node et npm installé sur ta machine <br/>
+
 Place toi à la racine du dossier "pokedex" en ligne de commande et execute la commande suivante
 ``` ligne de commande
 npm install
