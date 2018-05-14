@@ -28,7 +28,7 @@ Tu as un dossier "src" à la racine. Ce dossier contient d'autres dossier nommé
 - <strong>img</strong> : contient l'img du logo pokemon
 
 La structure <strong>html</strong> et <strong>css</strong> sont déjà faite, tu n'as pas à t'en occuper. Pour effectuer l'exercice il te suffit
-de te focaliser sur le dossier "js". C'est dans le fichier "app.js" que tu écrira ton code.
+de te focaliser sur le dossier "js". C'est dans le fichier "app.js" que tu écriras ton code.
 
 Pour récupérer la data das pokemons, il faut que fasse appel à ce fichier : 
 https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
@@ -50,6 +50,10 @@ let jQuery = require("jquery");
 
 })(jQuery);
 ```
+
+Pour afficher la liste de tes pokemons, tu peux les afficher dans la balise html "ul" qui a pour class ".list-pokemon"
+
+Tu peux structurer ta lise en utilisant les class de bootstrap, ex : ".col-lg-4""
 
 Une fois ton script terminé, tu peux executer la commande suivante
 ``` javascript
