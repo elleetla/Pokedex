@@ -78,7 +78,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("(function () {\n\n    console.log(\"tu écris ton code ici :)\");\n})();\n\n//# sourceURL=webpack:///./src/js/app.js?");
+eval("(function () {\n\n    console.log(\"tu écris ton code ici :)\");\n\n    const pokemonData = fetch(\"https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json\");\n    const listPokemon = document.querySelector(\".list-pokemon\");\n    const arrayPokemon = [];\n\n    pokemonData.then(data => data.json()).then(data => arrayPokemon.push(...data.pokemon)).then(() => {\n        arrayPokemon.map(pokemon => {\n            const blockPokemon = document.createElement(\"li\");\n            blockPokemon.className = \"col-lg-4\";\n            listPokemon.appendChild(blockPokemon);\n            blockPokemon.innerHTML = `\n                    <img src=\"${pokemon.img}\" alt=\"${pokemon.name}\">\n                    <h4>${pokemon.name}</h4>\n                    <p class=\"desc\"><strong>Poids : </strong>${pokemon.weight}</p>\n                    <p class=\"desc\"><strong>Taille :</strong> ${pokemon.height}</p>\n                `;\n        });\n    });\n})();\n\n//# sourceURL=webpack:///./src/js/app.js?");
 
 /***/ })
 
